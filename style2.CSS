@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(photo_5373118973832461751_x.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav {
+    margin: 0 15px;
+}
+
+.nav p {
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    color: rgb(89, 139, 141);
+    font-weight: 600;
+}
+
+.nav p:hover {
+    background-color:orange;
+    transform: translateY(-2px);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.bloc1 {
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: orange;
+    backdrop-filter: blur(3px);
+}
+
+.sub {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: orange;
+    margin-bottom: 15px;
+}
+
+.text {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+
+.lor {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+    color: #e0e0e0;
+}
+
+.but {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn {
+    background-color: orange;
+    color: orange;
+}
+
+
+
+.secondary {
+    background-color: transparent;
+    color: orange;
+    border: 1px solid orange;
+}
+
+
+.cla {
+    width: 420px;
+    border-radius: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(photo_5373118973832461751_x.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav {
+    margin: 0 15px;
+}
+
+.nav p {
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    color: orange;
+    font-weight: 600;
+}
+
+.nav p:hover {
+    background-color: orange;
+    transform: translateY(-2px);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.bloc1 {
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+    border: 2px solid rgb(167, 177, 33);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+}
+
+.sub {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: orange;
+    margin-bottom: 15px;
+}
+
+.text {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+
+.lor {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+    color: #e0e0e0;
+}
+
+.but {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn {
+    background-color: orange;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #4a8b8d;
+    transform: translateY(-2px);
+}
